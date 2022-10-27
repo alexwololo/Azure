@@ -1,13 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import LogRocket from 'logrocket';
-
+LogRocket.init('swrfab/azure');
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        LogRocket.init('swrfab/azure');
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
